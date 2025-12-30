@@ -1,0 +1,9 @@
+# ByteTrack configuration tuned for bicycle tracking.
+tracker_type: bytetrack
+track_thresh: 0.4        # Increase to reduce false positives
+match_thresh: 0.8        # Higher to reduce ID switches (0.7-0.9 typical)
+track_buffer: 30         # Larger keeps tracks alive longer when occluded
+mot20: False
+frame_rate: 30
+min_box_area: 10
+fuse_score: True
